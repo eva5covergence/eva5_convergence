@@ -4,6 +4,7 @@ Team Members
 2. Naga Pavan Kumar Kalepu
 3. Varsha Raveendran
 
-Version Number: Version 1
+Version Number: Version 1.
+
 Architecture :            
    
