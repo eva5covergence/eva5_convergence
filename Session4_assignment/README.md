@@ -57,3 +57,11 @@ Results : v5.1 - test accuracy - 99.55% at epoch 16 at learning rate =0.02 with 
           
           V5.4 - test accuracy - 99.41% at epoch 9 with drop out = 0.12
 **********************************************************************************************************************
+Version Number: Version 6.
+
+Architecture : ![](Images/Varsha.png)   
+
+Description : Varsha to add her description here.
+
+Results : Varsha to add her results here.
+**********************************************************************************************************************
