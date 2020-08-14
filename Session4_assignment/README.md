@@ -6,5 +6,5 @@ Team Members
 
 Version Number: Version 1.
 
-Architecture :            
+Architecture : ![GitHub Logo](images/Version5.png)   
    
