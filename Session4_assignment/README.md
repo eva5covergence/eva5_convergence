@@ -39,6 +39,7 @@ Description : Added batch norm before the last layer and hit the highest test ac
 Number of parameters are 18,058
 
 Results : v4.1 - test accuracy - 99.53% at epoch 15 at learning rate =0.02
+
           v4.2 - test accuracy - 99.5% at epoch 15 at learning rate = 0.01
 **********************************************************************************************************************
 Version Number: Version 5.
@@ -49,7 +50,10 @@ Description : Added only 6 Convolution layers. Added Batch Normalization at each
 Number of parameters are 18,802 
 
 Results : v5.1 - test accuracy - 99.55% at epoch 16 at learning rate =0.02 with BatchNormalization at end of each layer and drop out of 0.15
+
           v5.2 - test accuracy - 99.5% at epoch 13 at learning rate = 0.01 with BatchNormalization at end of each layer and drop out of 0.15
+          
           V5.3 - test accuracy - 99.39% at epoch 8 with drop out = 0.10
+          
           V5.4 - test accuracy - 99.41% at epoch 9 with drop out = 0.12
 **********************************************************************************************************************
