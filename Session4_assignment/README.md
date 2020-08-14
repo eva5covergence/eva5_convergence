@@ -6,5 +6,9 @@ Team Members
 
 Version Number: Version 1.
 
-Architecture : ![GitHub Logo](images/Version5.png)   
+Architecture : ![](Images/Version5.png)   
+
+Description : Added Batch norm after each layer, number of channels updated in each layer from 8 till 32 geometrically
+
+Results : Test accuracy is 99.44% but number of parameters around 21000
    
