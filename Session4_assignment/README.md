@@ -57,11 +57,15 @@ Results : v5.1 - test accuracy - 99.55% at epoch 16 at learning rate =0.02 with 
           
           V5.4 - test accuracy - 99.41% at epoch 9 with drop out = 0.12
 **********************************************************************************************************************
-Version Number: Version 6.
+### Version Number: Version 6.
 
-Architecture : ![](Images/Varsha.png)   
+Architecture : ![](Images/Version6.png)   
 
-Description : Varsha to add her description here.
+Description : <br>
+* Added 5 convolution layers with 3X3 kernel and 1 layer with 1X1 kernel. The 1X1 kernel layer reduced the number of parameters in the last layer. 
+* Used AdaptiveAvgPool2d to reduce the spatial dimensions to 1X1 before applying 1X1 conv layer. 
+* Applied batch normalization and dropout (except 5th and 6th conv layer) to all convolution layers except the last one.
+* Number of parameters = 17,994
 
-Results : Varsha to add her results here.
+Results : Test accuracy - 99.4% at epoch 14; learning rate = 0.01; 
 **********************************************************************************************************************
