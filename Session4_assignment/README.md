@@ -6,7 +6,7 @@ Team Members
 **********************************************************************************************************************
 Version Number: Version 1.
 
-Architecture : ![](Images/Add.png)   
+Architecture : ![](Images/version1.png)   
 
 Description : Added Batch norm after each layer, number of channels updated in each layer from 8 till 32 geometrically
 
@@ -15,7 +15,7 @@ Results : Test accuracy is 99.44% but number of parameters around 21000
 **********************************************************************************************************************
 Version Number: Version 2.
 
-Architecture : ![](Images/Add.png)   
+Architecture : ![](Images/version2.png)   
 
 Description : Reduced number of paramters below 20000 but didn't reach target test accuracy 99.4 %
 
@@ -24,7 +24,7 @@ Results : Test Accuracy is 99.37
 **********************************************************************************************************************
 Version Number: Version 3.
 
-Architecture : ![](Images/Add.png)   
+Architecture : ![](Images/version3.png)   
 
 Description : Observed model was overfitting in the version 2, so added dropout layers after conv4 and conv5 as we should not add near final output layer and got target accuracy and removed batchnorm before the last layer
 
@@ -33,7 +33,7 @@ Results : test accuracy is 99.43%
 **********************************************************************************************************************
 Version Number: Version 4.
 
-Architecture : ![](Images/Add.png)   
+Architecture : ![](Images/version4.png)   
 
 Description : Added batch norm before the last layer and hit the highest test accuracy of all the versions which is 99.5 % at epoch 12 & 17 at below notebook
 Number of parameters are 18,058
