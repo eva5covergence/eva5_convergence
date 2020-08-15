@@ -38,8 +38,9 @@ Architecture : ![](Images/version4.png)
 Description : Added batch norm before the last layer and hit the highest test accuracy of all the versions which is 99.5 % at epoch 12 & 17 at below notebook
 Number of parameters are 18,058
 
-Results : v4.1 - test accuracy - 99.53% at epoch 15 at learning rate =0.02
+Results : 
 
+          v4.1 - test accuracy - 99.53% at epoch 15 at learning rate =0.02 
           v4.2 - test accuracy - 99.5% at epoch 15 at learning rate = 0.01
 **********************************************************************************************************************
 Version Number: Version 5.
