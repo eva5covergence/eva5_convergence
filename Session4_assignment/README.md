@@ -67,7 +67,7 @@ Results : v5.1 - test accuracy - 99.55% at epoch 16 at learning rate =0.02 with 
 **********************************************************************************************************************
 ### Version Number: Version 6.
 
-Architecture : ![](Images/Varsha.png)   
+Architecture : ![](Images/Version6.png)   
 
 Description : <br>
 * Added 5 convolution layers with 3X3 kernel and 1 layer with 1X1 kernel. The 1X1 kernel layer reduced the number of parameters in the last layer. 
