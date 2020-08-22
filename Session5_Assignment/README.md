@@ -40,8 +40,7 @@
 
 #### Target:
 
-1. Make Model Lighter
-2. Replaced Big 8x8 kernel with GAP.
+1. Make Model Lighter by replacing Big 8x8 kernel with GAP.
 
 #### Results:
 
@@ -50,7 +49,7 @@
 3. Best Test Accuracy: 97.71
 
 #### Analysis:
-1. Reduced 6400 parameters
+1. GAP helped to reduce the number of parameters to 7432 from 13832. Around 6400 parameters got eliminated.
 2. Overfitting got reduced as made model simpler with less number of parameters
 3. As network capacity got reduced, it is expected that reduction in accuracies
 
@@ -68,10 +67,9 @@
 3. Best Test Accuracy: 99.05
 
 #### Analysis:
-1. GAP helped to reduce around 6400 parameters
-2. Batch Norm helped to push the first few epochs accuracies significantly as previous model without Batch Norm layers first few epochs accuracies is <70% and Batch Norm helped to push first few accuracies >97%
-3. Little overfitting
-4. Accuracies need to push further to reach target. Let us use LR and LR Schedulers in the next version to resolve it.
+1. Batch Norm helped to push the first few epochs accuracies significantly as previous model without Batch Norm layers first few epochs accuracies is <70% and Batch Norm helped to push first few accuracies >97%
+2. Little overfitting
+3. Accuracies need to push further to reach target. Let us use LR and LR Schedulers in the next version to resolve it.
 
 # Speed_up_Learning_rates - S5_v4
 
