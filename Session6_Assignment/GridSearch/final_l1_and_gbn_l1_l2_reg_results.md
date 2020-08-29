@@ -1,3 +1,11 @@
+**Best BN l1 regularisation parameter:**
+
+For L1 lambda parameter 3.994568295536243e-05
+
+**Best GBN L1 and L2:**
+
+For L1 lambda parameter 8.283167683030542e-05, For L2 lambda parameter 9.098971072011508e-05
+
 Final L1 Regularization results:
 --------------------------------
 ```
