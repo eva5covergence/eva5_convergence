@@ -33,5 +33,29 @@ Performing the Regularization experiment on Base model with selected best hyperp
 
   Two classes are created, One for Model with BatchNormalization and another one for Model with GhostBatchNormalization. A factory method will create and return an object based on the experiment choosen. All the expirements with their best hyperparameter are added to a model dictionary. This dictionay contains the object of the expirement model and their hyperparameters. By looping over this dictionary, each model is sequentially trained and validated. The trainning loss, trainning accuracy, test loss, test accuracy are stored to plot the loss and accuracy graph and compare the performance of these reguralizations.
  
- Test Loss Graph
+Test Loss Graph for 5 expirements
+
+ ![](Images/Loss.png)   
  
+Explaining the loss curve
+
+L1 with BatchNormalization: The loss curve is displayed in Blue. The curve shows that loss keeps decreasing consistently over 12 epochs and becomes stable after 15 epoch. The learning rate is reduced after 12 epochs and we can see that model is not efficiently learning after 15 epochs. 
+
+L2 with BatchNormalization: The loss curve is displayed in Orange. The curve shows that loss decreases but not at steady rate. There is a fluctuation in loss from Epoch 3 to Epoch 12. The learning rate is reduced after 12 epochs and we can see that loss still fluctuates and it is not stable.
+
+L1 + L2 + BatchNormalization: The loss curve is displayed in Green. The curve shows that loss keeps decreasing consistently over 12 epochs with little fluctuation and becomes stable after 15 epoch. The learning rate is reduced after 12 epochs and we can see that model is not efficiently learning after 15 epochs.
+
+Ghost BatchNormalization: The loss curve is displayed in Red. The curve shows that loss keeps decreasing consistently over 12 epochs with little fluctuation and becomes stable after 15 epoch. The learning rate is reduced after 12 epochs and we can see that this is the model with very low loss and is a good model comparatively.
+
+L1 + L2 + GhostBatchNormalization: The loss curve is displayed in Purple. The curve shows that loss keeps decreasing but not at steady rate. There is a fluctuation in loss from Epoch 3 to Epoch 12. The learning rate is reduced after 12 epochs and we can see that loss still fluctuates and it is not stable.
+
+
+Validation Accuracy Graph for 5 expirements
+
+ ![](Images/TestAccuracy.png) 
+ 
+From the graph we can see that L1 + L2 + BatchNormalization and GhostBatchNormalization gives best accuracy score, but the model with L1 + L2 + BatchNormalization is not consistent. We can see the loss and accuracy are fluctuating. The Model with GhostBatchNormalization gives good accuracy with consistency. So this is a good model comparatively.
+
+Misclassified Images from the model with GBN 
+
+ ![](Images/Missclasified.png)   
