@@ -15,6 +15,7 @@ INFO:root:L1 reg parameter: 6.591861839385862e-05, L2 reg parameter: 0, Train_ac
 INFO:root:L1 reg parameter: 0.0006379964557023101, L2 reg parameter: 0, Train_acc: 98.41166666666666, Test_acc: 98.55
 INFO:root:L1 reg parameter: 0.005385266624081285, L2 reg parameter: 0, Train_acc: 86.74333333333334, Test_acc: 88.7
 INFO:root:L1 reg parameter: 0.025199167140147163, L2 reg parameter: 0, Train_acc: 16.595, Test_acc: 16.72
+For L1 lambda parameter 3.994568295536243e-05
 ```
 
 **Below 3 values are best among all experiments:**
