@@ -33,7 +33,7 @@ Performing the Regularization experiment on Base model with selected best hyper-
 
 Two network architecture classes are created, one for model with BatchNormalization and another one for model with GhostBatchNormalization. A factory method will create and return an object based on the experiment choosen. All the expirements with their best hyper-parameter are added to a model dictionary. This dictionay contains the object of the expirement model and their hyper-parameters. By looping over this dictionary, each model is sequentially trained and validated. The trainning loss, trainning accuracy, test loss, test accuracy are stored to plot the loss and accuracy graph and compare the performance of these reguralizations.
  
-Test Loss Graph for 5 expirements
+Test Loss Graph for 5 experiments
 
  ![](Images/Loss.png)   
  
@@ -50,7 +50,7 @@ Ghost BatchNormalization: The loss curve is displayed in Red. The curve shows th
 L1 + L2 + GhostBatchNormalization: The loss curve is displayed in Purple. The curve shows that loss keeps decreasing but not at steady rate. There is a fluctuation in loss from Epoch 3 to Epoch 12. The learning rate is reduced after 12 epochs and we can see that loss still fluctuates and it is not stable.
 
 
-Validation Accuracy Graph for 5 expirements
+Validation Accuracy Graph for 5 experiments
 
  ![](Images/TestAccuracy.png) 
  
