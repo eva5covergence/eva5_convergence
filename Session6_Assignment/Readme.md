@@ -28,3 +28,10 @@ With above approach Coarse and Finer search 4 * 4 * 20 * 15 = 4800 epochs overal
 - 15 - number of epochs
   
 Total 4800 epochs to get best parameters.
+
+Performing the Regularization experiment on Base model with selected best hyperparameters
+
+  Two classes are created, One for Model with BatchNormalization and another one for Model with GhostBatchNormalization. A factory method will create and return an object based on the experiment choosen. All the expirements with their best hyperparameter are added to a model dictionary. This dictionay contains the object of the expirement model and their hyperparameters. By looping over this dictionary, each model is sequentially trained and validated. The trainning loss, trainning accuracy, test loss, test accuracy are stored to plot the loss and accuracy graph and compare the performance of these reguralizations.
+ 
+ Test Loss Graph
+ 
