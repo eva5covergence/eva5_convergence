@@ -61,7 +61,7 @@ Description : <br />
 * Added learning rate = 0.1 and step size = 12 with gamma value = 0.2
 * Kept batch size = 64
 * Ran it for 50 epochs
-* Image augmentation techniques helped to regularize the model till 30th epcoh and got maximum test accuracy of 89.25%
+* Image augmentation techniques helped to regularize the model till 37th epcoh and got maximum test accuracy of 89.25%
 Accuracy : <br />
 * Best training accuracy = 94.27 %
 * Best test accuracy = 89.25 %
