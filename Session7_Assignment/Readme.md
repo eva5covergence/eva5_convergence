@@ -52,6 +52,7 @@ Result: <br />
 ### Final Experiment 4: Final model with VGG kind of Archicture.
 Architecture : <br />
 ![](Images/session7_vgg.png)
+
 Description : <br />
 * Followed VGG kind of architecture.
 * Added C1P1C2P2C3P3C4O structured architecture
