@@ -6,6 +6,7 @@ Team Members
 ### Executed RESNET18 model on CIFAR10 dataset.
 Architecture: <br />
 ![](Images/Resnet18Summary.png)
+<br />
 Receptive Field: <br />
 ![](Images/Resnet18GRF.png)
 Explanation : <br />
