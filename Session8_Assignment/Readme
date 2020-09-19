@@ -7,4 +7,4 @@ Team Members
 
 Description:  <br />
 
-* Extracted the ResNet18 model from https://github.com/kuangliu/pytorch-cifar/blob/master/models/resnet.py repository and placed it in our repository model folder https://github.com/eva5covergence/EVA5_AI_Projects_new/tree/master/models/networks
+* Extracted the ResNet18 model from [Kuangliu Repository](https://github.com/kuangliu/pytorch-cifar/blob/master/models/resnet.py) repository and placed it in our repository model folder [Our Repository](https://github.com/eva5covergence/EVA5_AI_Projects_new/tree/master/models/networks)
