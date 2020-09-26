@@ -5,6 +5,8 @@ Team Members
 **********************************************************************************************************************
 ### Implemented Image Augmentation using Albumentation package.
 **Model Architecture**: Resnet18 <br />
+![](Images/Resnet18.jpeg)   
+<br />
 **Dataset** : CIFAR10 <br />
 **Augmentation Applied** : 
 1. ShiftScaleRotate with values
@@ -22,7 +24,7 @@ Team Members
 * Installed the latest version of Albumentation in google colab
 * Imported the Albumentation library to our Data transformation module [base_data_transforms.py](https://github.com/eva5covergence/EVA5_AI_Projects_new/blob/master/data/data_transforms/base_data_transforms.py) inside our API repository
 * Created a separate function which will implement the image augmentation from Albumentation package and old function that uses torchvision transforms will be used by older assignments.
-* [Resnet18](https://github.com/eva5covergence/EVA5_AI_Projects_new/blob/master/models/networks/resnet.py) model from previous assignment was used for training.
+* Layer 4 of the Resnet18 model is modified to have 8x8 as the output size in order to feed the gradcam to generate better heatmap of the learnt features which helped to predict the class.   
 * The augumentation related to colors for example: RandomBrigtnessContrast, RandomGamma, CLAHE, HueSaturationValue and ChannelShuffle was first tried in a sequence to check the model's training time and accuracy.
 * The above color augmentation resulted in increasing training time and huge overfitting. This could be as a result of improved colors variations in training images that could have led the model learn good edges, texture and pattern. When tried to predict on the test image, due to absence of improved color features, the test accuracy was bad and led to overfitting.
 * As color augmentation did not yeild good results, Positional augmentation like ShiftScaleRotate, RandomSizedCrop and HorizontalFlip was used. This augmentation reduced the training time, reduced the overfitting and improved the test accuracy.
